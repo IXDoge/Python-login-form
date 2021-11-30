@@ -24,7 +24,7 @@ def start():
 
 for line in response.split('\n'):
   if username and password in line:
-    print('Correct password and username')
+    print('Correct password and username.')
     start()
 print('Invalid password or username.')
 sys.exit()
