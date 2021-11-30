@@ -9,7 +9,7 @@ password = input('Enter Your Password > ') # 123
 
 response = requests.get(pastebin).text
 
-# Code below
+# Your code below
 
 def start():
   print('''
