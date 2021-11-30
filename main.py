@@ -13,12 +13,12 @@ response = requests.get(pastebin).text
 
 def start():
   print('''
-  [1]: Option 1
-  [2]: Option 2
-  [3]: Option 3
+[1]: Option 1
+[2]: Option 2
+[3]: Option 3
   ''')
   while True:
-    input('Select: ')
+    input('>>> ')
 
 #######################
 
